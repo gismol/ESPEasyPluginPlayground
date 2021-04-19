@@ -8,7 +8,7 @@
 //
 // written by https://github.com/apszowski
 
-#ifdef PLUGIN_BUILD_TESTING
+
 
 #define PLUGIN_153
 #define PLUGIN_ID_153 153
@@ -206,4 +206,3 @@ boolean Plugin_153(byte function, struct EventStruct *event, String& string)
   return success;
 }
 
-#endif
